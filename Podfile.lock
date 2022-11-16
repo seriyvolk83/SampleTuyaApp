@@ -1,0 +1,29 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - TuyaSmartActivator (0.3.4):
+    - CocoaAsyncSocket
+    - TuyaSmartUtil
+    - TYBluetooth (< 10.0)
+  - TuyaSmartUtil (3.32.5)
+  - TYBluetooth (3.34.1):
+    - TuyaSmartUtil (>= 3.32.0)
+
+DEPENDENCIES:
+  - TuyaSmartActivator
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - TuyaSmartActivator
+    - TuyaSmartUtil
+    - TYBluetooth
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  TuyaSmartActivator: 092f2885a8754c0a3e70701fe04830a1a065d2ee
+  TuyaSmartUtil: 2e39e5fefd117767c7b2a4d8e2333afca1072170
+  TYBluetooth: a2c99b14fc8c50e18c13c3e3be198089b22be866
+
+PODFILE CHECKSUM: f793e21d417a0da0fd4a694324cabd8648fa0a9b
+
+COCOAPODS: 1.11.3
