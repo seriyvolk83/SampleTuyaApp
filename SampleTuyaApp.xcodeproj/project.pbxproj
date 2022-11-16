@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		7F7DEDB02924BC6D0031DD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F7DEDB32924BC6D0031DD80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F7DEDBA2924BDDD0031DD80 /* SampleTuyaApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleTuyaApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F7DEDBD2924CA550031DD80 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		ACA12237A545A8BFEB01CA60 /* Pods-SampleTuyaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleTuyaApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleTuyaApp/Pods-SampleTuyaApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B1C3C08C7211A18C3C1E2AF0 /* Pods-SampleTuyaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleTuyaApp.release.xcconfig"; path = "Target Support Files/Pods-SampleTuyaApp/Pods-SampleTuyaApp.release.xcconfig"; sourceTree = "<group>"; };
 		CBDD807776D96650725BFC36 /* Pods_SampleTuyaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleTuyaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +69,7 @@
 		7F7DEDAB2924BC6C0031DD80 /* SampleTuyaApp */ = {
 			isa = PBXGroup;
 			children = (
+				7F7DEDBD2924CA550031DD80 /* Podfile */,
 				7F7DEDAC2924BC6C0031DD80 /* SampleTuyaAppApp.swift */,
 				7F7DEDAE2924BC6C0031DD80 /* ContentView.swift */,
 				7F7DEDB02924BC6D0031DD80 /* Assets.xcassets */,
@@ -133,7 +135,7 @@
 				};
 			};
 			buildConfigurationList = 7F7DEDA42924BC6C0031DD80 /* Build configuration list for PBXProject "SampleTuyaApp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -366,6 +368,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +402,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -14,7 +14,7 @@ struct SampleTuyaAppApp: App {
         WindowGroup {
             ContentView()
                 .onAppear {
-                    TuyaSmartActivator.sharedInstance()
+                    print("TuyaSmartActivator.sharedInstance(): \(TuyaSmartActivator.sharedInstance())")
                 }
         }
     }
